@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliothèque | Home</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./predef.css">
+</head>
+<body>
+    <div id="nav-container">
+        <div class="title">
+            <h1>Bibliothèque</h1>
+        </div>
+        <div class="list-container">
+            <ul>
+                <li><a href="#add" class="send-button">ajouter</a></li>
+                <li><a href="#exists" class="reset-button">livres</a></li>
+            </ul>
+        </div>
+    </div>
+        
+    <div id="add"> 
+        <div class="form-container">
+            <div class="form">
+                <span class="heading">Ajouter un livre</span>
+                <input placeholder="Titre" id="add-titre" type="text" class="input">
+                <input placeholder="Auteur" id="add-auteur" type="text" class="input">
+                <input placeholder="ISBN" id="add-isbn" type="text" class="input">
+                <input placeholder="Image" id="add-image" type="text" class="input">
+                <input placeholder="Éditeur" id="add-editeur" type="text" class="input">
+                <input placeholder="Date de publication" id="add-date" type="date" class="input">
+            
+
+                <select id="add-genre" multiple class="input">
+                    <option value="BD">BD</option>
+                    <option value="Romance">Romance</option>
+                    <option value="Fantasy">Fantasy</option>
+                    <option value="Thriller">Thriller</option>
+                    <option value="Aventure">Aventure</option>
+                </select>
+            
+
+                <select id="add-langue" class="input">
+                    <option value="Français">Français</option>
+                    <option value="Anglais">Anglais</option>
+                    <option value="Espagnol">Espagnol</option>
+                    <option value="Allemand">Allemand</option>
+
+                </select>
+            
+                <input placeholder="Nombre de pages" id="add-page" type="number" class="input">
+            
+
+                <select id="add-dispo" class="input">
+                    <option value="disponible">Disponible</option>
+                    <option value="non disponible">Non disponible</option>
+                </select>
+            
+                <input placeholder="État" id="add-etat" type="text" class="input">
+                <input placeholder="Emplacement" id="add-emplacement" type="text" class="input">
+                <textarea placeholder="Résumé" rows="10" cols="30" id="resume" name="resume" class="textarea"></textarea>
+            
+                <div class="button-container">
+                    <div class="send-button" id="add-button">Ajouter</div>
+                    <div class="reset-button-container">
+                        <div id="reset-btn" class="reset-button">Réinitialiser</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="exists">
+        <h2>Nos livres existants</h2>
+        <div class="categories">
+            Catégorie
+            <button class="categorie-btn send-button" data-categorie="Tout">Tout</button>
+            <button class="categorie-btn send-button" data-categorie="BD">BD</button>
+            <button class="categorie-btn send-button" data-categorie="Romance">Romance</button>
+            <button class="categorie-btn send-button" data-categorie="Fantasy">Fantasy</button>
+            <button class="categorie-btn send-button" data-categorie="Thriller">Thriller</button>
+            <button class="categorie-btn send-button" data-categorie="Jeunesse">Jeunesse</button>
+            <button class="categorie-btn send-button" data-categorie="Aventure">Aventure</button>
+        </div>
+        <div class="advanced-search">
+            Recherche Avancée
+            <input placeholder="Rechercher par titre..." id="search-titre" type="text" class="input">
+            <input placeholder="Rechercher par auteur..." id="search-auteur" type="text" class="input">
+            <input placeholder="Année de publication min" id="search-date-min" type="number" class="input">
+            <input placeholder="Année de publication max" id="search-date-max" type="number" class="input">
+            <input placeholder="Nombre de pages min" id="search-pages-min" type="number" class="input">
+            <input placeholder="Nombre de pages max" id="search-pages-max" type="number" class="input">
+            <select id="search-dispo" class="input">
+                <option value="">Toutes disponibilités</option>
+                <option value="disponible">Disponible</option>
+                <option value="non disponible">Non disponible</option>
+            </select>
+
+            <div class="button-container">
+                <div class="send-button" id="search-button">Rechercher</div>
+                <div class="reset-button-container">
+                    <div id="reset-btn" class="reset-button" onclick="resetSearch()">Réinitialiser</div>
+                </div>
+            </div>
+        </div>
+        <div class="book-container">
+        </div>
+
+ 
+        <div class="pagination"></div>
+
+    </div>
+    <div class="details"></div>
+    
+
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>

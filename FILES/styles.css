@@ -1,0 +1,249 @@
+#nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto; 
+
+}
+
+.list-container ul {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.list-container ul li {
+    font-size: 1em;
+
+}
+
+
+#exists {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 50px ;
+    padding-bottom: 50px ;
+    margin: auto; 
+}
+
+.book-container {
+    width: 70%;
+    height: auto;
+    overflow: hidden; 
+    flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+    margin-top: 70px;
+    gap: 70px;
+}
+.one-book img {
+    width: 200px;
+    height:auto;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: #3d0c0c;
+    color: #fff;
+    padding: 5%;
+    border:#250505;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#add {
+
+    border:transparent;
+    background-color: transparent;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.details {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 900px;
+    margin: 30px;
+    background-color: #001925;
+    padding: 30px;
+    border-left: 5px solid #ff7a01;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+    color: #fff;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.propriétés {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.details .details-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:100px;
+}
+.close {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    border: transparent;
+    color: #fff;
+}
+
+
+.orange {
+    color: #ff7a01;
+}
+  
+.form-container {
+max-width: 900px;
+margin: auto; 
+background-color: #001925;
+padding: 30px;
+border-left: 5px solid #ff7a01;
+clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+}
+
+.heading {
+display: block;
+color: white;
+font-size: 1.5rem;
+font-weight: 800;
+margin-bottom: 20px;
+}
+
+.input {
+color: #87a4b6;
+width: 100%;
+background-color: #002733;
+border: none;
+outline: none;
+padding: 10px;
+margin-bottom: 20px;
+font-weight: bold;
+transition: all 0.2s ease-in-out;
+border-left: 1px solid transparent;
+}
+
+.input:focus {
+border-left: 5px solid #ff7a01;
+}
+
+.textarea {
+width: 100%;
+padding: 10px;
+border: none;
+outline: none;
+background-color: #013747;
+color: #ff7a01;
+font-weight: bold;
+resize: none;
+max-height: 150px;
+margin-bottom: 20px;
+border-left: 1px solid transparent;
+transition: all 0.2s ease-in-out;
+}
+
+.textarea:focus {
+border-left: 5px solid #ff7a01;
+}
+
+.button-container {
+display: flex;
+gap: 10px;
+}
+
+.send-button {
+flex-basis: 70%;
+background: #ff7a01;
+padding: 10px;
+color: #001925;
+text-align: center;
+font-weight: bold;
+border: 1px solid transparent;
+transition: all 0.2s ease-in-out;
+cursor: pointer;
+}
+
+.send-button:hover {
+background: transparent;
+border: 1px solid #ff7a01;
+color: #ff7a01;
+}
+
+.reset-button-container {
+filter: drop-shadow(1px 1px 0px #ff7a01);
+flex-basis: 30%;
+}
+
+.reset-button {
+position: relative;
+text-align: center;
+padding: 10px;
+color: #ff7a01;
+font-weight: bold;
+background: #001925;
+clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);
+transition: all 0.2s ease-in-out;
+cursor: pointer;
+}
+
+.reset-button:hover {
+background: #ff7a01;
+color: #001925;
+}
+
+.categorie-btn {
+    margin: 5px;
+}
+
+.categories {
+    margin-top: 20px;
+}
+
+
+.advanced-search {
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.pagination {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex; 
+    align-items: center;
+    gap : 40px;
+    width: 20%;
+}
+
+@media screen and (max-width: 500px) {
+    .title h1 {
+        font-size: 1em;
+    }
+
+    .pagination {
+        display: inline-flex;
+
+    }
+}

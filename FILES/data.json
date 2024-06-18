@@ -1,0 +1,95 @@
+{
+    "livres": [
+        {
+        "titre": "Les Profs",
+        "auteurs": "Pica",
+        "isbn": "978-2-1234-5678-9",
+        "image": "../Img/bd1.jpg",
+        "editeur": "Bamboo Édition",
+        "datePublication": "2000",
+        "genre": "BD, Comédie",
+        "resume": "Des profs tous dingues tentent de sauver une école avec humour et désinvolture.",
+        "langue": "Français",
+        "nombrePages": 48,
+        "disponibilite": "disponible",
+        "etat": "Bonne",
+        "emplacement": "Rayon BD"
+        },
+        {
+        "titre": "Livingston contra Fumake",
+        "auteurs": "Alamy",
+        "isbn": "978-1-234-56789-7",
+        "image": "../Img/bd3.jpg",
+        "editeur": "Éditions Alamy",
+        "datePublication": "2005",
+        "genre": "BD, Thriller",
+        "resume": "Un détective se lance dans une chasse sans merci contre un tueur en série redoutable.",
+        "langue": "Français",
+        "nombrePages": 200,
+        "disponibilite": "disponible",
+        "etat": "Usagé",
+        "emplacement": "Rayon BD"
+        },
+        {
+        "titre": "Pokémon: Attrapez-les tous !",
+        "auteurs": "Hidenori Kusaka",
+        "isbn": "978-1-4201-1234-5",
+        "image": "../Img/bv1.png",
+        "editeur": "Bibliothèque Verte",
+        "datePublication": "1997",
+        "genre": "Aventure, Jeunesse",
+        "resume": "Sacha rêve de devenir le meilleur dresseur de Pokémon.",
+        "langue": "Français",
+        "nombrePages": 150,
+        "disponibilite": "disponible",
+        "etat": "Usagé",
+        "emplacement": "Rayon Jeunesse"
+        },
+        {
+        "titre": "Les Légendaires",
+        "auteurs": "Patrick Sobral",
+        "isbn": "978-2-01-201234-5",
+        "image": "../Img/bv5.jfif",
+        "editeur": "Delcourt",
+        "datePublication": "2004",
+        "genre": "Fantasy, Jeunesse",
+        "resume": "Les aventures de héros devenus enfants après un accident magique.",
+        "langue": "Français",
+        "nombrePages": 120,
+        "disponibilite": "disponible",
+        "etat": "Usagé",
+        "emplacement": "Rayon Jeunesse"
+        },
+        {
+        "titre": "Une héritière à dompter",
+        "auteurs": "Sharon Kendrick",
+        "isbn": "978-2-290-12345-6",
+        "image": "../Img/harlequin1.jpg",
+        "editeur": "Harlequin",
+        "datePublication": "2012",
+        "genre": "Romance",
+        "resume": "Une histoire d'amour passionnante entre une héritière et un homme déterminé à la conquérir.",
+        "langue": "Français",
+        "nombrePages": 300,
+        "disponibilite": "non disponible",
+        "etat": "Bonne",
+        "emplacement": "Rayon Romance"
+        },
+        {
+        "titre": "Une nuit avec un Grec",
+        "auteurs": "Sharon Kendrick",
+        "isbn": "978-2-290-23456-7",
+        "image": "../Img/harlequin2.jfif",
+        "editeur": "Harlequin",
+        "datePublication": "2013",
+        "genre": "Romance",
+        "resume": "Une histoire d'amour entre une Américaine et un riche Grec.",
+        "langue": "Français",
+        "nombrePages": 320,
+        "disponibilite": "disponible",
+        "etat": "Bonne",
+        "emplacement": "Rayon Romance"
+        }
+    ]
+
+}
