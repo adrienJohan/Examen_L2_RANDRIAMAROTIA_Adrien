@@ -462,8 +462,8 @@ document.getElementById('add-button').addEventListener('click', function() {
     let image = document.getElementById('add-image').value.trim();
     let editeur = document.getElementById('add-editeur').value.trim();
     let datePublication = document.getElementById('add-date').value;
-    let genre = Array.from(addGenre.selectedOptions).map(option => option.value).join(', ');
-    let langue = addLangue.value;
+    let genre = document.getElementById('add-genre').value;
+    let langue = document.getElementById('add-langue').value;
     let nombrePages = parseInt(document.getElementById('add-page').value.trim());
     let disponibilite = document.getElementById('add-dispo').value.trim();
     let etat = document.getElementById('add-etat').value.trim();
